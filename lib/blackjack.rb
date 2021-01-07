@@ -40,19 +40,19 @@ def hit?(card_total)
   # code hit? here
   puts "Type 'h' to hit or 's' to stay"
   #binding.pry
-  answer = get_user_input
-  binding.pry
-  if answer == "h"
-    card_total += deal_card
-    binding.pry
-  elsif answer == "s"
-  binding.pry
-  else
-    invalid_command
-    prompt_user
-    binding.pry
-  end
-  display_card_total(card_total)
+  #answer = get_user_input
+  #binding.pry
+  #if answer == "h"
+  #  card_total += deal_card
+  #  binding.pry
+  #elsif answer == "s"
+  #binding.pry
+  #else
+  #  invalid_command
+  #  prompt_user
+  #  binding.pry
+  #end
+  #display_card_total(card_total)
 end
 
 def invalid_command
