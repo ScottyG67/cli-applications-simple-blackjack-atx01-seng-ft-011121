@@ -11,9 +11,9 @@ end
 
 def display_card_total(card_total)
   # code #display_card_total here
-  binding.pry
+  #binding.pry
   card_total=card_total+deal_card
-  binding.pry
+  #binding.pry
   puts card_total
 end
 
