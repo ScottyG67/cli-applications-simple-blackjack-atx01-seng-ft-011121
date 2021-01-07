@@ -40,7 +40,13 @@ def hit?(card_total)
   # code hit? here
   #binding.pry
   prompt_user
-  get_user_input
+  answer = get_user_input
+  if answer == "h"
+    deal_card
+  elsif answer == "s"
+else
+  invalid_command
+end
   
 end
 
