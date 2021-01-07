@@ -50,6 +50,7 @@ def hit?(card_total)
   else
     invalid_command
     prompt_user
+    get_user_input
     #display_card_total(card_total)
   end
   card_total
