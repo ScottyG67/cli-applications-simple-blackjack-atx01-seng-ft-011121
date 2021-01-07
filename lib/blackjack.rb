@@ -1,3 +1,4 @@
+require 'pry'
 def welcome
   # code #welcome here
   puts "Welcome to the Blackjack Table"
@@ -10,7 +11,9 @@ end
 
 def display_card_total(card_total)
   # code #display_card_total here
+  binding.pry
   card_total=card_total+deal_card
+  binding.pry
   puts card_total
 end
 
