@@ -7,6 +7,7 @@ end
 def deal_card
   # code #deal_card here
   rand(1..11)
+  binding.pry
 end
 
 def display_card_total(card_total)
@@ -38,6 +39,7 @@ end
 
 def hit?
   # code hit? here
+  
 end
 
 def invalid_command
