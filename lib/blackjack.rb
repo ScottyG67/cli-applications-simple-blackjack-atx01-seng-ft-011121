@@ -16,7 +16,7 @@ end
 
 def prompt_user
   # code #prompt_user here
-  p "Type 'h' to hit or 's' to stay"
+  puts "Type 'h' to hit or 's' to stay"
 end
 
 def get_user_input
@@ -38,7 +38,7 @@ end
 
 def hit?(card_total)
   # code hit? here
-  prompt_user
+  puts prompt_user
   binding.pry
   answer = get_user_input
   if answer == "h"
