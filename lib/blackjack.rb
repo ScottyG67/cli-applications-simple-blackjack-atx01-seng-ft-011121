@@ -36,7 +36,7 @@ def initial_round
   card_total
 end
 
-def hit?(arg)
+def hit?(card_total)
   # code hit? here
   #binding.pry
   prompt_user
