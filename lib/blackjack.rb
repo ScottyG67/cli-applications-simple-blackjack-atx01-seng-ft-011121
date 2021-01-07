@@ -38,7 +38,7 @@ end
 
 def hit?(arg)
   # code hit? here
-  binding.pry
+  #binding.pry
   prompt_user
   get_user_input
   
