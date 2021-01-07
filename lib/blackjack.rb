@@ -42,17 +42,20 @@ def hit?(card_total)
   #binding.pry
   answer = get_user_input
   #binding.pry
-  #if answer == "h"
-  #  card_total += deal_card
-  #  binding.pry
-  #elsif answer == "s"
-  #binding.pry
-  #else
-  #  invalid_command
-  #  prompt_user
-  #  binding.pry
-  #end
+  if answer == "h"
+    card_total += deal_card
+    binding.pry
+    display_card_total(card_total)
+  elsif answer == "s"
+  binding.pry
   display_card_total(card_total)
+  else
+    invalid_command
+    prompt_user
+    binding.pry
+    display_card_total(card_total)
+  end
+  
 end
 
 def invalid_command
