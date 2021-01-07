@@ -40,7 +40,7 @@ def hit?(card_total)
   # code hit? here
   puts "Type 'h' to hit or 's' to stay"
   #binding.pry
-  #answer = get_user_input
+  answer = get_user_input
   #binding.pry
   #if answer == "h"
   #  card_total += deal_card
