@@ -38,7 +38,7 @@ end
 
 def hit?(card_total)
   # code hit? here
-  puts "Type 'h' to hit or 's' to stay"
+  prompt_user
   #binding.pry
   answer = get_user_input
   #binding.pry
