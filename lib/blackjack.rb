@@ -35,7 +35,7 @@ def initial_round
   card_total = deal_card + deal_card
   #card_total = card_total + deal_card
   #binding.pry
-  display_card_total(card_total)
+  #display_card_total(card_total)
 end
 
 def hit?
