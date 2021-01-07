@@ -31,10 +31,10 @@ end
 
 def initial_round
   # code #initial_round here
-  binding.pry
+  #binding.pry
   card_total = deal_card + deal_card
   #card_total = card_total + deal_card
-  binding.pry
+  #binding.pry
   display_card_total(card_total)
 end
 
